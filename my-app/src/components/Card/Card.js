@@ -1,5 +1,6 @@
-import React from "react";
+import React,{ Component } from "react";
 import './Card.css'
+
 
 const signs = require('../../texts/signs.json');
 
