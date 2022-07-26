@@ -69,4 +69,37 @@ class Card extends Component {
       });
     } 
   } 
+
+render() {
+    return ( 
+    <div className="card" id="card">
+      <div className="card-image"><div className="overlay"><img id="sign_img" src={require(`../../stars/${this.state.sign.toLowerCase()}-stars.png`)} alt=''></img></div></div>
+      <div className="card-text">
+        <span className="date">{`${this.state.title}`}</span>
+        <h2 id="card_sign">{`${this.state.sign}`}</h2>
+        <p id="date"></p>
+        <p id="text">
+        {`${this.state.text}`}
+        </p>
+      </div>
+      <div className="change_sign" id="change" onClick={(e) => this.props.changeSign("change")}>Change sign</div>
+      <div className="card-stats">
+      <div className="stat" id="yesterday" onClick={(e) => this.clicked(e)}>
+          <div className="value">Yesterday's</div>
+          <div className="type">Horoscope</div>
+        </div>
+        <div className="stat border" id="today" onClick={(e) => this.clicked(e)}>
+          <div className="value">Today's</div>
+          <div className="type">Horoscope</div>
+        </div>
+        <div className="stat" id="tomorrow" onClick={(e) => this.clicked(e)}>
+          <div className="value">Tomorrow's</div>
+          <div className="type">Horoscope</div>
+        </div>
+      </div>
+    </div>
+    )
 }
+}
+
+export default Card;
