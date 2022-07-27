@@ -1,18 +1,16 @@
-### React Daily Horoscope made with [Aztro API](https://aztro.readthedocs.io/en/latest/)
-#### Web app which show your daily horoscope.
+### Horoscopy made with [Aztro API]
+#### Web app which shows your daily(yesterday,today,tomorrow) horoscope.
 It uses React to render the page and Aztro API to fetch the horoscopes.
 
-#### How to use it
-##### Just Clone and `npm start` it or  - [click here to see a demo](https://sergekashkin.github.io/daily_scope/).
-![Image](https://user-images.githubusercontent.com/39168159/114576513-e285cb00-9c83-11eb-8f96-03388a61cbe6.gif)
+This app was developed for entertainment purposes. It is a way to get you daily horoscope from your guides. When a user clicks on their astrological sign, another window pops up with horoscopes for yesterday,for today and tomorrow.
 
+### Project Presentation
 
-create a new branch and use the following commands
+### Built With 
+React
 
+### Resources
+Rapid API
 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/bensonmaina/wandia.git   //replace wandia with the repo name
-git push -u origin main
+### Contributors
+Wandia Mugo (https://github.com/wandiamugo)
