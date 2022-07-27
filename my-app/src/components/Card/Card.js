@@ -73,7 +73,7 @@ class Card extends Component {
 
 render() {
     return ( 
-    <div className="card" id="card">
+    <div className="card" id="card" >
       <div className="card-image"><div className="overlay"><img id="sign_img" src={require(`../../stars/${this.state.sign.toLowerCase()}-stars.png`)} alt=''></img></div></div>
       <div className="card-text">
         <span className="date">{`${this.state.title}`}</span>
