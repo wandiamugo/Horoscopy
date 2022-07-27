@@ -8,6 +8,6 @@ body {
   display:flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0,0,0,0) linear-gradient(to right, rgb(0, 57, 115), rgb(229, 229, 190)) repeat scroll 0% 0%;
+  background: rgba(0,0,0,0) linear-gradient(to right, rgb(156, 134, 8), rgb(229, 229, 190)) repeat scroll 0% 0%;
   overflow: hidden;
 }

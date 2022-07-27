@@ -24,10 +24,10 @@
     padding:0px;
     color:white;
     grid-area:title;
-    border-bottom: 1px solid rgb(255, 7, 110);
+    border-bottom: 1px solid rgb(236, 233, 45);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: rgb(255, 7, 110);
+    background-color: rgb(212, 210, 38);
 }
 
 
@@ -37,8 +37,8 @@
 }
 
 .card-stats .border {
-    border-right: 1px solid rgb(172, 26, 87);
-    border-left: 1px solid rgb(172, 26, 87);
+    border-right: 1px solid rgb(224, 206, 35);
+    border-left: 1px solid rgb(214, 201, 20);
 }
 
 .card:hover .card-image {

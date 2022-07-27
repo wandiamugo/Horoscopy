@@ -39,7 +39,7 @@ h2 {
 }
 
 .card-text .date {
-    color: rgb(255, 7, 110);
+    color: rgb(212, 209, 19);
     font-size: 15px;
 }
 
@@ -61,7 +61,7 @@ h2 {
     grid-template-rows: 1fr;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    background: rgb(255, 7, 110);
+    background: rgb(216, 204, 35);
 }
 
 .card-stats .stat {
@@ -85,8 +85,8 @@ h2 {
 }
 
 .card-stats .border {
-    border-right: 1px solid rgb(172, 26, 87);
-    border-left: 1px solid rgb(172, 26, 87);
+    border-right: 1px solid rgb(211, 214, 16);
+    border-left: 1px solid rgb(233, 236, 33);
 }
 
 .card-stats .value sup {
@@ -138,9 +138,9 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: rgb(255, 7, 110);
-    border-top:1px solid rgb(172, 26, 87);
-    border-bottom:1px solid rgb(172, 26, 87);
+    background: rgb(199, 187, 21);
+    border-top:1px solid rgb(228, 225, 40);
+    border-bottom:1px solid rgb(204, 207, 31);
 }
 
 #yesterday {
